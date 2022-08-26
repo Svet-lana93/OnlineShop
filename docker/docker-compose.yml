@@ -1,0 +1,36 @@
+version: '3.1'
+
+services:
+  online_store_php:
+    build: ./php
+    container_name: online_store_php
+    volumes:
+      - ../server:/var/www/html
+    ports:
+      - '8183:80'
+    environment:
+      WEB_DOCUMENT_ROOT: /var/www/html/public
+      WEB_DOCUMENT_INDEX: index.php
+      PHP_MEMORY_LIMIT: 2G
+      PHP_UPLOAD_MAX_FILESIZE: 512M
+      PHP_POST_MAX_SIZE: 512M
+      PHP_DISPLAY_ERRORS: 1
+      php.xdebug.max_nesting_level: 500
+    depends_on:
+      - online_store_mysql
+
+  online_store_mysql:
+    build: ./mysql
+    container_name: online_store_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: myapp
+      MYSQL_DATABASE: online_store_mysql
+      MYSQL_USER: myapp
+      MYSQL_PASSWORD: myapp
+    ports:
+      - '3133:3306'
+    volumes:
+      - ../online_store-db:/var/lib/mysql
+
+volumes:
+  online_store-db:

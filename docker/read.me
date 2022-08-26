@@ -1,0 +1,66 @@
+#start project
+    docker-compose up
+    docker-compose up -d
+    docker-compose up --build
+
+#stop project
+    docker-compose stop
+    docker-compose down
+
+#kill project
+    docker-compose kill
+    docker-compose down --rm=all
+
+#docker bash
+    docker exec -it online_store_php /bin/bash
+    docker exec -it online_store_mysql /bin/bash
+    ->mysql -u root -p
+    ->myapp
+    exit
+
+docker image prune
+docker container prune
+docker volume prune
+
+#web
+    http://localhost:8183
+
+#mysql:
+    login root
+    pass myapp
+
+#docker
+    docker --help
+    docker version
+
+#autoload
+    composer dump-autoload
+
+#packagist
+    composer require shmidt_student/logger:dev-master
+
+#chown
+    sudo chown -R $USER server
+
+#remove folder
+    sudo rm -rf a_level-db
+
+#packages
+    barryvdh/laravel-debugbar  -  https://packagist.org/packages/barryvdh/laravel-debugbar
+        composer require barryvdh/laravel-debugbar --dev
+        php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
+
+    squizlabs/PHP_CodeSniffer  -  https://github.com/squizlabs/PHP_CodeSniffer
+        composer require squizlabs/php_codesniffer --dev
+        ./vendor/bin/phpcs (./vendor/bin/phpcs app/Http/Controllers/UserController.php) (-s)
+        ./vendor/bin/phpcbf
+
+    nunomaduro/phpinsights  -  https://phpinsights.com/get-started.html#within-laravel
+        composer require nunomaduro/phpinsights --dev
+        php artisan vendor:publish --provider="NunoMaduro\PhpInsights\Application\Adapters\Laravel\InsightsServiceProvider"
+        php artisan insights
+        php artisan insights path/to/analyse --fix
+
+    nunomaduro/larastan  -  https://github.com/nunomaduro/larastan
+        composer require nunomaduro/larastan:^1.0.3 --dev
+        ./vendor/bin/phpstan analyse --memory-limit=2G

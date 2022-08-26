@@ -1,0 +1,794 @@
+2022-08-12 10:38:13,197 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-08-12 10:38:13,197 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2022-08-12 10:38:13,197 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2022-08-12 10:38:13,198 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-08-12 10:38:13,198 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-08-12 10:38:13,198 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-08-12 10:38:13,198 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-08-12 10:38:13,198 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-08-12 10:38:13,198 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-08-12 10:38:13,206 INFO RPC interface 'supervisor' initialized
+2022-08-12 10:38:13,206 INFO supervisord started with pid 82
+2022-08-12 10:38:14,209 INFO spawned: 'syslogd' with pid 85
+2022-08-12 10:38:14,210 INFO spawned: 'php-fpmd' with pid 86
+2022-08-12 10:38:14,212 INFO spawned: 'apached' with pid 87
+2022-08-12 10:38:14,213 INFO spawned: 'crond' with pid 88
+2022-08-12 10:38:14,215 INFO spawned: 'postfixd' with pid 89
+2022-08-12 10:38:14,217 INFO spawned: 'sshd' with pid 91
+2022-08-12 10:38:14,218 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:14,218 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:14,218 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:14,219 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:14,219 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:14,294 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:14,296 INFO spawned: 'apached' with pid 124
+2022-08-12 10:38:14,302 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:14,346 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:15,348 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-12 10:38:15,349 INFO spawned: 'apached' with pid 128
+2022-08-12 10:38:15,354 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:15,394 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:16,396 INFO spawned: 'apached' with pid 135
+2022-08-12 10:38:16,400 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:16,440 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:17,443 INFO spawned: 'apached' with pid 233
+2022-08-12 10:38:17,446 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:17,487 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:18,490 INFO spawned: 'apached' with pid 235
+2022-08-12 10:38:18,495 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:18,534 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:19,538 INFO spawned: 'apached' with pid 237
+2022-08-12 10:38:19,542 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:19,583 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:20,585 INFO spawned: 'apached' with pid 242
+2022-08-12 10:38:20,590 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:20,630 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:21,633 INFO spawned: 'apached' with pid 244
+2022-08-12 10:38:21,638 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:21,679 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:22,681 INFO spawned: 'apached' with pid 246
+2022-08-12 10:38:22,686 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:22,727 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:23,729 INFO spawned: 'apached' with pid 248
+2022-08-12 10:38:23,735 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:23,776 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:24,779 INFO spawned: 'apached' with pid 253
+2022-08-12 10:38:24,784 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:24,822 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:25,825 INFO spawned: 'apached' with pid 255
+2022-08-12 10:38:25,830 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:25,870 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:26,874 INFO spawned: 'apached' with pid 257
+2022-08-12 10:38:26,879 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:26,920 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:27,922 INFO spawned: 'apached' with pid 259
+2022-08-12 10:38:27,927 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:27,970 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:28,973 INFO spawned: 'apached' with pid 261
+2022-08-12 10:38:28,978 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:29,018 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:30,021 INFO spawned: 'apached' with pid 266
+2022-08-12 10:38:30,026 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:30,067 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:31,070 INFO spawned: 'apached' with pid 268
+2022-08-12 10:38:31,074 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:31,114 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:32,118 INFO spawned: 'apached' with pid 270
+2022-08-12 10:38:32,122 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:32,163 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:33,165 INFO spawned: 'apached' with pid 272
+2022-08-12 10:38:33,171 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:33,214 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:34,217 INFO spawned: 'apached' with pid 274
+2022-08-12 10:38:34,222 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:34,262 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:35,265 INFO spawned: 'apached' with pid 279
+2022-08-12 10:38:35,268 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:35,310 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:36,313 INFO spawned: 'apached' with pid 281
+2022-08-12 10:38:36,317 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:36,359 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:37,362 INFO spawned: 'apached' with pid 283
+2022-08-12 10:38:37,367 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:37,408 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:38,413 INFO spawned: 'apached' with pid 285
+2022-08-12 10:38:38,417 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:38,458 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:38,459 INFO spawned: 'apached' with pid 287
+2022-08-12 10:38:38,465 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:38,503 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:39,506 INFO spawned: 'apached' with pid 289
+2022-08-12 10:38:39,511 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:39,550 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:40,552 INFO spawned: 'apached' with pid 294
+2022-08-12 10:38:40,556 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:40,600 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:41,602 INFO spawned: 'apached' with pid 296
+2022-08-12 10:38:41,607 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:41,647 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:42,650 INFO spawned: 'apached' with pid 298
+2022-08-12 10:38:42,654 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:42,696 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:43,699 INFO spawned: 'apached' with pid 300
+2022-08-12 10:38:43,703 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:43,745 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:44,748 INFO spawned: 'apached' with pid 305
+2022-08-12 10:38:44,754 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:44,795 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:45,798 INFO spawned: 'apached' with pid 307
+2022-08-12 10:38:45,803 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:45,843 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:46,846 INFO spawned: 'apached' with pid 309
+2022-08-12 10:38:46,851 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:46,890 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:47,893 INFO spawned: 'apached' with pid 311
+2022-08-12 10:38:47,898 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:47,939 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:48,941 INFO spawned: 'apached' with pid 313
+2022-08-12 10:38:48,946 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:48,987 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:49,989 INFO spawned: 'apached' with pid 318
+2022-08-12 10:38:49,997 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:50,043 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:51,046 INFO spawned: 'apached' with pid 320
+2022-08-12 10:38:51,053 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:51,098 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:52,100 INFO spawned: 'apached' with pid 322
+2022-08-12 10:38:52,105 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:52,148 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:53,150 INFO spawned: 'apached' with pid 324
+2022-08-12 10:38:53,154 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:53,194 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:54,198 INFO spawned: 'apached' with pid 326
+2022-08-12 10:38:54,206 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:54,257 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:55,259 INFO spawned: 'apached' with pid 331
+2022-08-12 10:38:55,266 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:55,308 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:56,311 INFO spawned: 'apached' with pid 333
+2022-08-12 10:38:56,315 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:56,357 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:57,360 INFO spawned: 'apached' with pid 335
+2022-08-12 10:38:57,366 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:57,409 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:58,412 INFO spawned: 'apached' with pid 337
+2022-08-12 10:38:58,417 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:58,458 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:38:59,461 INFO spawned: 'apached' with pid 339
+2022-08-12 10:38:59,465 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:38:59,509 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:00,511 INFO spawned: 'apached' with pid 344
+2022-08-12 10:39:00,518 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:00,563 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:01,565 INFO spawned: 'apached' with pid 346
+2022-08-12 10:39:01,569 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:01,609 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:02,612 INFO spawned: 'apached' with pid 348
+2022-08-12 10:39:02,616 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:02,656 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:03,659 INFO spawned: 'apached' with pid 350
+2022-08-12 10:39:03,663 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:03,704 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:04,707 INFO spawned: 'apached' with pid 355
+2022-08-12 10:39:04,712 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:04,751 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:05,754 INFO spawned: 'apached' with pid 357
+2022-08-12 10:39:05,758 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:05,799 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:06,801 INFO spawned: 'apached' with pid 359
+2022-08-12 10:39:06,807 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:06,851 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:07,853 INFO spawned: 'apached' with pid 361
+2022-08-12 10:39:07,858 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:07,897 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:08,900 INFO spawned: 'apached' with pid 363
+2022-08-12 10:39:08,904 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:08,946 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:09,950 INFO spawned: 'apached' with pid 368
+2022-08-12 10:39:09,954 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:09,995 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:10,997 INFO spawned: 'apached' with pid 370
+2022-08-12 10:39:11,002 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:11,045 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:12,048 INFO spawned: 'apached' with pid 372
+2022-08-12 10:39:12,053 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:12,094 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:13,098 INFO spawned: 'apached' with pid 374
+2022-08-12 10:39:13,102 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:13,142 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:14,144 INFO spawned: 'apached' with pid 376
+2022-08-12 10:39:14,148 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:14,188 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:15,191 INFO spawned: 'apached' with pid 381
+2022-08-12 10:39:15,195 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:15,235 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:16,238 INFO spawned: 'apached' with pid 383
+2022-08-12 10:39:16,243 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:16,282 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:17,285 INFO spawned: 'apached' with pid 385
+2022-08-12 10:39:17,289 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:17,333 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:18,335 INFO spawned: 'apached' with pid 387
+2022-08-12 10:39:18,339 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:18,379 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:19,381 INFO spawned: 'apached' with pid 389
+2022-08-12 10:39:19,387 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:19,430 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:20,434 INFO spawned: 'apached' with pid 394
+2022-08-12 10:39:20,438 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:20,479 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:21,482 INFO spawned: 'apached' with pid 396
+2022-08-12 10:39:21,487 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:21,529 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:22,532 INFO spawned: 'apached' with pid 398
+2022-08-12 10:39:22,536 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:22,575 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:23,578 INFO spawned: 'apached' with pid 400
+2022-08-12 10:39:23,583 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:23,625 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:24,628 INFO spawned: 'apached' with pid 402
+2022-08-12 10:39:24,634 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:24,673 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:25,676 INFO spawned: 'apached' with pid 407
+2022-08-12 10:39:25,679 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:25,719 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:26,722 INFO spawned: 'apached' with pid 409
+2022-08-12 10:39:26,726 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:26,769 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:27,771 INFO spawned: 'apached' with pid 411
+2022-08-12 10:39:27,777 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:27,819 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:28,822 INFO spawned: 'apached' with pid 413
+2022-08-12 10:39:28,825 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:28,866 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:29,869 INFO spawned: 'apached' with pid 418
+2022-08-12 10:39:29,874 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:29,917 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:30,920 INFO spawned: 'apached' with pid 420
+2022-08-12 10:39:30,925 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:30,967 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:31,970 INFO spawned: 'apached' with pid 422
+2022-08-12 10:39:31,974 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:32,015 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:33,017 INFO spawned: 'apached' with pid 424
+2022-08-12 10:39:33,022 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:33,065 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:34,067 INFO spawned: 'apached' with pid 426
+2022-08-12 10:39:34,073 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:34,113 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:35,116 INFO spawned: 'apached' with pid 431
+2022-08-12 10:39:35,121 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:35,166 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:36,170 INFO spawned: 'apached' with pid 433
+2022-08-12 10:39:36,175 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:36,219 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:37,223 INFO spawned: 'apached' with pid 435
+2022-08-12 10:39:37,228 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:37,273 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:38,276 INFO spawned: 'apached' with pid 437
+2022-08-12 10:39:38,280 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:38,320 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:39,325 INFO spawned: 'apached' with pid 439
+2022-08-12 10:39:39,329 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:39,371 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:40,375 INFO spawned: 'apached' with pid 444
+2022-08-12 10:39:40,380 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:40,422 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:41,424 INFO spawned: 'apached' with pid 446
+2022-08-12 10:39:41,429 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:41,472 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:42,473 INFO spawned: 'apached' with pid 448
+2022-08-12 10:39:42,478 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:42,517 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:43,520 INFO spawned: 'apached' with pid 450
+2022-08-12 10:39:43,526 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:43,567 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:44,571 INFO spawned: 'apached' with pid 452
+2022-08-12 10:39:44,575 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:44,616 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:45,618 INFO spawned: 'apached' with pid 457
+2022-08-12 10:39:45,623 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:45,663 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:46,665 INFO spawned: 'apached' with pid 459
+2022-08-12 10:39:46,671 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:46,713 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:47,716 INFO spawned: 'apached' with pid 461
+2022-08-12 10:39:47,721 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:47,761 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:48,765 INFO spawned: 'apached' with pid 463
+2022-08-12 10:39:48,770 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:48,811 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:49,814 INFO spawned: 'apached' with pid 468
+2022-08-12 10:39:49,820 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:49,863 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:50,865 INFO spawned: 'apached' with pid 470
+2022-08-12 10:39:50,869 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:50,910 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:51,913 INFO spawned: 'apached' with pid 472
+2022-08-12 10:39:51,917 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:51,959 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:52,961 INFO spawned: 'apached' with pid 474
+2022-08-12 10:39:52,966 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:53,006 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:54,010 INFO spawned: 'apached' with pid 476
+2022-08-12 10:39:54,014 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:54,055 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:55,057 INFO spawned: 'apached' with pid 481
+2022-08-12 10:39:55,061 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:55,103 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:56,106 INFO spawned: 'apached' with pid 483
+2022-08-12 10:39:56,110 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:56,151 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:57,154 INFO spawned: 'apached' with pid 485
+2022-08-12 10:39:57,159 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:57,202 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:58,205 INFO spawned: 'apached' with pid 487
+2022-08-12 10:39:58,209 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:58,254 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:39:59,257 INFO spawned: 'apached' with pid 489
+2022-08-12 10:39:59,262 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:39:59,302 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:00,305 INFO spawned: 'apached' with pid 494
+2022-08-12 10:40:00,309 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:00,354 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:01,356 INFO spawned: 'apached' with pid 496
+2022-08-12 10:40:01,361 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:01,402 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:02,406 INFO spawned: 'apached' with pid 498
+2022-08-12 10:40:02,411 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:02,451 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:03,454 INFO spawned: 'apached' with pid 500
+2022-08-12 10:40:03,460 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:03,499 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:04,501 INFO spawned: 'apached' with pid 502
+2022-08-12 10:40:04,505 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:04,546 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:05,549 INFO spawned: 'apached' with pid 507
+2022-08-12 10:40:05,555 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:05,595 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:06,597 INFO spawned: 'apached' with pid 509
+2022-08-12 10:40:06,602 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:06,644 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:07,647 INFO spawned: 'apached' with pid 511
+2022-08-12 10:40:07,651 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:07,690 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:08,694 INFO spawned: 'apached' with pid 513
+2022-08-12 10:40:08,699 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:08,740 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:09,743 INFO spawned: 'apached' with pid 518
+2022-08-12 10:40:09,747 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:09,787 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:10,789 INFO spawned: 'apached' with pid 520
+2022-08-12 10:40:10,794 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:10,835 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:11,838 INFO spawned: 'apached' with pid 522
+2022-08-12 10:40:11,842 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:11,882 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:12,885 INFO spawned: 'apached' with pid 524
+2022-08-12 10:40:12,892 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:12,935 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:13,937 INFO spawned: 'apached' with pid 526
+2022-08-12 10:40:13,942 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:13,984 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:14,987 INFO spawned: 'apached' with pid 531
+2022-08-12 10:40:14,991 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:15,034 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:16,037 INFO spawned: 'apached' with pid 533
+2022-08-12 10:40:16,042 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:16,083 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:17,085 INFO spawned: 'apached' with pid 535
+2022-08-12 10:40:17,089 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:17,129 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:18,132 INFO spawned: 'apached' with pid 537
+2022-08-12 10:40:18,136 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:18,177 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:19,179 INFO spawned: 'apached' with pid 539
+2022-08-12 10:40:19,186 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:19,227 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:20,231 INFO spawned: 'apached' with pid 544
+2022-08-12 10:40:20,235 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:20,275 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:21,277 INFO spawned: 'apached' with pid 546
+2022-08-12 10:40:21,281 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:21,321 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:22,324 INFO spawned: 'apached' with pid 548
+2022-08-12 10:40:22,328 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:22,367 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:23,372 INFO spawned: 'apached' with pid 550
+2022-08-12 10:40:23,377 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:23,422 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:24,426 INFO spawned: 'apached' with pid 552
+2022-08-12 10:40:24,430 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:24,470 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:25,473 INFO spawned: 'apached' with pid 557
+2022-08-12 10:40:25,478 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:25,518 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:26,521 INFO spawned: 'apached' with pid 559
+2022-08-12 10:40:26,525 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:26,566 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:27,569 INFO spawned: 'apached' with pid 561
+2022-08-12 10:40:27,573 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:27,614 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:28,617 INFO spawned: 'apached' with pid 563
+2022-08-12 10:40:28,622 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:28,664 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:29,668 INFO spawned: 'apached' with pid 565
+2022-08-12 10:40:29,672 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:29,715 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:30,717 INFO spawned: 'apached' with pid 570
+2022-08-12 10:40:30,724 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:30,766 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:31,768 INFO spawned: 'apached' with pid 572
+2022-08-12 10:40:31,773 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:31,815 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:32,818 INFO spawned: 'apached' with pid 574
+2022-08-12 10:40:32,823 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:32,864 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:33,868 INFO spawned: 'apached' with pid 576
+2022-08-12 10:40:33,873 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:33,914 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:34,917 INFO spawned: 'apached' with pid 581
+2022-08-12 10:40:34,921 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:34,963 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:35,966 INFO spawned: 'apached' with pid 583
+2022-08-12 10:40:35,971 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:36,010 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:37,013 INFO spawned: 'apached' with pid 585
+2022-08-12 10:40:37,017 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:37,059 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:38,061 INFO spawned: 'apached' with pid 587
+2022-08-12 10:40:38,065 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:38,106 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:39,108 INFO spawned: 'apached' with pid 589
+2022-08-12 10:40:39,112 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:39,154 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:40,157 INFO spawned: 'apached' with pid 594
+2022-08-12 10:40:40,163 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:40:40,204 INFO exited: apached (exit status 1; not expected)
+2022-08-12 10:40:41,208 INFO spawned: 'apached' with pid 596
+2022-08-12 10:40:41,213 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:49:01,532 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-08-12 10:49:01,532 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2022-08-12 10:49:01,532 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2022-08-12 10:49:01,532 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-08-12 10:49:01,532 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-08-12 10:49:01,533 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-08-12 10:49:01,533 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-08-12 10:49:01,533 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-08-12 10:49:01,533 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-08-12 10:49:01,541 INFO RPC interface 'supervisor' initialized
+2022-08-12 10:49:01,542 INFO supervisord started with pid 81
+2022-08-12 10:49:02,545 INFO spawned: 'syslogd' with pid 84
+2022-08-12 10:49:02,547 INFO spawned: 'php-fpmd' with pid 85
+2022-08-12 10:49:02,548 INFO spawned: 'apached' with pid 86
+2022-08-12 10:49:02,551 INFO spawned: 'crond' with pid 87
+2022-08-12 10:49:02,555 INFO spawned: 'postfixd' with pid 90
+2022-08-12 10:49:02,558 INFO spawned: 'sshd' with pid 97
+2022-08-12 10:49:02,560 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:49:02,561 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:49:02,561 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:49:02,561 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:49:02,561 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 10:49:03,762 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-12 11:04:34,309 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-08-12 11:04:34,309 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2022-08-12 11:04:34,309 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2022-08-12 11:04:34,309 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-08-12 11:04:34,309 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-08-12 11:04:34,309 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-08-12 11:04:34,309 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-08-12 11:04:34,309 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-08-12 11:04:34,309 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-08-12 11:04:34,316 INFO RPC interface 'supervisor' initialized
+2022-08-12 11:04:34,316 INFO supervisord started with pid 81
+2022-08-12 11:04:35,319 INFO spawned: 'syslogd' with pid 84
+2022-08-12 11:04:35,320 INFO spawned: 'php-fpmd' with pid 85
+2022-08-12 11:04:35,322 INFO spawned: 'apached' with pid 86
+2022-08-12 11:04:35,323 INFO spawned: 'crond' with pid 87
+2022-08-12 11:04:35,325 INFO spawned: 'postfixd' with pid 90
+2022-08-12 11:04:35,326 INFO spawned: 'sshd' with pid 97
+2022-08-12 11:04:35,328 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 11:04:35,328 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 11:04:35,332 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 11:04:35,333 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 11:04:35,334 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 11:04:36,424 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-12 11:18:50,412 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-08-12 11:18:50,413 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2022-08-12 11:18:50,413 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2022-08-12 11:18:50,413 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-08-12 11:18:50,413 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-08-12 11:18:50,413 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-08-12 11:18:50,413 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-08-12 11:18:50,413 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-08-12 11:18:50,413 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-08-12 11:18:50,418 INFO RPC interface 'supervisor' initialized
+2022-08-12 11:18:50,419 INFO supervisord started with pid 78
+2022-08-12 11:18:51,421 INFO spawned: 'syslogd' with pid 81
+2022-08-12 11:18:51,423 INFO spawned: 'php-fpmd' with pid 82
+2022-08-12 11:18:51,424 INFO spawned: 'apached' with pid 83
+2022-08-12 11:18:51,426 INFO spawned: 'crond' with pid 84
+2022-08-12 11:18:51,428 INFO spawned: 'postfixd' with pid 86
+2022-08-12 11:18:51,430 INFO spawned: 'sshd' with pid 88
+2022-08-12 11:18:51,431 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 11:18:51,431 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 11:18:51,431 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 11:18:51,431 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 11:18:51,431 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-12 11:18:52,567 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-13 09:11:54,192 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-08-13 09:11:54,192 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2022-08-13 09:11:54,192 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2022-08-13 09:11:54,192 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-08-13 09:11:54,192 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-08-13 09:11:54,192 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-08-13 09:11:54,192 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-08-13 09:11:54,192 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-08-13 09:11:54,192 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-08-13 09:11:54,506 INFO RPC interface 'supervisor' initialized
+2022-08-13 09:11:54,507 INFO supervisord started with pid 80
+2022-08-13 09:11:55,510 INFO spawned: 'syslogd' with pid 83
+2022-08-13 09:11:55,511 INFO spawned: 'php-fpmd' with pid 84
+2022-08-13 09:11:55,513 INFO spawned: 'apached' with pid 85
+2022-08-13 09:11:55,514 INFO spawned: 'crond' with pid 86
+2022-08-13 09:11:55,515 INFO spawned: 'postfixd' with pid 87
+2022-08-13 09:11:55,517 INFO spawned: 'sshd' with pid 88
+2022-08-13 09:11:55,519 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-13 09:11:55,519 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-13 09:11:55,519 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-13 09:11:55,519 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-13 09:11:55,519 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-13 09:11:57,056 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-14 09:33:41,708 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-08-14 09:33:41,708 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2022-08-14 09:33:41,708 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2022-08-14 09:33:41,708 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-08-14 09:33:41,708 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-08-14 09:33:41,708 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-08-14 09:33:41,708 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-08-14 09:33:41,708 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-08-14 09:33:41,708 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-08-14 09:33:42,029 INFO RPC interface 'supervisor' initialized
+2022-08-14 09:33:42,030 INFO supervisord started with pid 82
+2022-08-14 09:33:43,033 INFO spawned: 'syslogd' with pid 85
+2022-08-14 09:33:43,034 INFO spawned: 'php-fpmd' with pid 86
+2022-08-14 09:33:43,036 INFO spawned: 'apached' with pid 87
+2022-08-14 09:33:43,038 INFO spawned: 'crond' with pid 88
+2022-08-14 09:33:43,040 INFO spawned: 'postfixd' with pid 89
+2022-08-14 09:33:43,045 INFO spawned: 'sshd' with pid 90
+2022-08-14 09:33:43,051 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-14 09:33:43,051 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-14 09:33:43,051 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-14 09:33:43,051 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-14 09:33:43,051 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-14 09:33:44,603 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-15 09:25:32,366 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-08-15 09:25:32,366 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2022-08-15 09:25:32,366 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2022-08-15 09:25:32,366 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-08-15 09:25:32,366 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-08-15 09:25:32,366 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-08-15 09:25:32,366 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-08-15 09:25:32,366 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-08-15 09:25:32,366 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-08-15 09:25:32,684 INFO RPC interface 'supervisor' initialized
+2022-08-15 09:25:32,684 INFO supervisord started with pid 81
+2022-08-15 09:25:33,688 INFO spawned: 'syslogd' with pid 84
+2022-08-15 09:25:33,692 INFO spawned: 'php-fpmd' with pid 85
+2022-08-15 09:25:33,696 INFO spawned: 'apached' with pid 86
+2022-08-15 09:25:33,698 INFO spawned: 'crond' with pid 87
+2022-08-15 09:25:33,701 INFO spawned: 'postfixd' with pid 89
+2022-08-15 09:25:33,704 INFO spawned: 'sshd' with pid 91
+2022-08-15 09:25:33,705 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-15 09:25:33,705 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-15 09:25:33,705 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-15 09:25:33,705 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-15 09:25:33,705 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-15 09:25:35,230 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-15 10:49:57,569 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-08-15 10:49:57,570 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2022-08-15 10:49:57,570 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2022-08-15 10:49:57,570 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-08-15 10:49:57,570 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-08-15 10:49:57,570 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-08-15 10:49:57,570 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-08-15 10:49:57,570 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-08-15 10:49:57,570 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-08-15 10:49:57,890 INFO RPC interface 'supervisor' initialized
+2022-08-15 10:49:57,890 INFO supervisord started with pid 82
+2022-08-15 10:49:58,896 INFO spawned: 'syslogd' with pid 85
+2022-08-15 10:49:58,902 INFO spawned: 'php-fpmd' with pid 86
+2022-08-15 10:49:58,909 INFO spawned: 'apached' with pid 87
+2022-08-15 10:49:58,916 INFO spawned: 'crond' with pid 88
+2022-08-15 10:49:58,924 INFO spawned: 'postfixd' with pid 95
+2022-08-15 10:49:58,931 INFO spawned: 'sshd' with pid 97
+2022-08-15 10:49:58,935 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-15 10:49:58,936 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-15 10:49:58,936 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-15 10:49:58,937 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-15 10:49:58,937 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-15 10:50:00,509 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-16 09:27:26,357 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-08-16 09:27:26,357 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2022-08-16 09:27:26,357 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2022-08-16 09:27:26,357 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-08-16 09:27:26,357 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-08-16 09:27:26,357 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-08-16 09:27:26,357 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-08-16 09:27:26,357 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-08-16 09:27:26,357 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-08-16 09:27:26,675 INFO RPC interface 'supervisor' initialized
+2022-08-16 09:27:26,676 INFO supervisord started with pid 76
+2022-08-16 09:27:27,680 INFO spawned: 'syslogd' with pid 79
+2022-08-16 09:27:27,683 INFO spawned: 'php-fpmd' with pid 80
+2022-08-16 09:27:27,687 INFO spawned: 'apached' with pid 81
+2022-08-16 09:27:27,692 INFO spawned: 'crond' with pid 82
+2022-08-16 09:27:27,695 INFO spawned: 'postfixd' with pid 84
+2022-08-16 09:27:27,699 INFO spawned: 'sshd' with pid 91
+2022-08-16 09:27:27,702 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-16 09:27:27,702 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-16 09:27:27,702 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-16 09:27:27,702 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-16 09:27:27,702 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-16 09:27:29,109 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-17 13:51:31,669 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-08-17 13:51:31,669 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2022-08-17 13:51:31,669 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2022-08-17 13:51:31,669 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-08-17 13:51:31,669 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-08-17 13:51:31,669 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-08-17 13:51:31,669 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-08-17 13:51:31,669 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-08-17 13:51:31,669 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-08-17 13:51:31,985 INFO RPC interface 'supervisor' initialized
+2022-08-17 13:51:31,986 INFO supervisord started with pid 80
+2022-08-17 13:51:32,992 INFO spawned: 'syslogd' with pid 83
+2022-08-17 13:51:32,997 INFO spawned: 'php-fpmd' with pid 84
+2022-08-17 13:51:33,003 INFO spawned: 'apached' with pid 85
+2022-08-17 13:51:33,009 INFO spawned: 'crond' with pid 88
+2022-08-17 13:51:33,014 INFO spawned: 'postfixd' with pid 93
+2022-08-17 13:51:33,023 INFO spawned: 'sshd' with pid 97
+2022-08-17 13:51:33,026 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-17 13:51:33,026 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-17 13:51:33,027 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-17 13:51:33,027 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-17 13:51:33,027 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-17 13:51:34,531 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-18 20:53:31,397 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-08-18 20:53:31,398 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2022-08-18 20:53:31,398 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2022-08-18 20:53:31,398 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-08-18 20:53:31,398 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-08-18 20:53:31,398 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-08-18 20:53:31,398 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-08-18 20:53:31,398 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-08-18 20:53:31,398 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-08-18 20:53:31,712 INFO RPC interface 'supervisor' initialized
+2022-08-18 20:53:31,712 INFO supervisord started with pid 83
+2022-08-18 20:53:32,714 INFO spawned: 'syslogd' with pid 86
+2022-08-18 20:53:32,717 INFO spawned: 'php-fpmd' with pid 87
+2022-08-18 20:53:32,721 INFO spawned: 'apached' with pid 88
+2022-08-18 20:53:32,726 INFO spawned: 'crond' with pid 89
+2022-08-18 20:53:32,729 INFO spawned: 'postfixd' with pid 93
+2022-08-18 20:53:32,731 INFO spawned: 'sshd' with pid 97
+2022-08-18 20:53:32,732 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-18 20:53:32,732 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-18 20:53:32,732 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-18 20:53:32,732 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-18 20:53:32,732 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-18 20:53:34,143 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-19 12:50:39,912 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-08-19 12:50:39,912 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2022-08-19 12:50:39,912 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2022-08-19 12:50:39,912 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-08-19 12:50:39,912 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-08-19 12:50:39,912 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-08-19 12:50:39,912 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-08-19 12:50:39,912 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-08-19 12:50:39,912 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-08-19 12:50:40,225 INFO RPC interface 'supervisor' initialized
+2022-08-19 12:50:40,226 INFO supervisord started with pid 81
+2022-08-19 12:50:41,232 INFO spawned: 'syslogd' with pid 84
+2022-08-19 12:50:41,237 INFO spawned: 'php-fpmd' with pid 85
+2022-08-19 12:50:41,245 INFO spawned: 'apached' with pid 86
+2022-08-19 12:50:41,250 INFO spawned: 'crond' with pid 89
+2022-08-19 12:50:41,254 INFO spawned: 'postfixd' with pid 94
+2022-08-19 12:50:41,259 INFO spawned: 'sshd' with pid 97
+2022-08-19 12:50:41,263 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-19 12:50:41,263 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-19 12:50:41,263 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-19 12:50:41,263 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-19 12:50:41,263 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-19 12:50:42,677 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-20 11:26:56,382 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-08-20 11:26:56,382 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2022-08-20 11:26:56,382 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2022-08-20 11:26:56,382 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-08-20 11:26:56,383 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-08-20 11:26:56,383 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-08-20 11:26:56,383 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-08-20 11:26:56,383 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-08-20 11:26:56,383 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-08-20 11:26:56,701 INFO RPC interface 'supervisor' initialized
+2022-08-20 11:26:56,702 INFO supervisord started with pid 77
+2022-08-20 11:26:57,708 INFO spawned: 'syslogd' with pid 80
+2022-08-20 11:26:57,715 INFO spawned: 'php-fpmd' with pid 81
+2022-08-20 11:26:57,723 INFO spawned: 'apached' with pid 83
+2022-08-20 11:26:57,737 INFO spawned: 'crond' with pid 84
+2022-08-20 11:26:57,744 INFO spawned: 'postfixd' with pid 85
+2022-08-20 11:26:57,756 INFO spawned: 'sshd' with pid 92
+2022-08-20 11:26:57,760 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-20 11:26:57,760 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-20 11:26:57,760 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-20 11:26:57,765 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-20 11:26:57,765 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-20 11:26:59,353 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-21 10:51:44,580 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-08-21 10:51:44,580 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2022-08-21 10:51:44,580 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2022-08-21 10:51:44,580 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-08-21 10:51:44,580 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-08-21 10:51:44,580 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-08-21 10:51:44,580 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-08-21 10:51:44,580 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-08-21 10:51:44,580 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-08-21 10:51:44,894 INFO RPC interface 'supervisor' initialized
+2022-08-21 10:51:44,894 INFO supervisord started with pid 85
+2022-08-21 10:51:45,899 INFO spawned: 'syslogd' with pid 88
+2022-08-21 10:51:45,905 INFO spawned: 'php-fpmd' with pid 89
+2022-08-21 10:51:45,911 INFO spawned: 'apached' with pid 90
+2022-08-21 10:51:45,915 INFO spawned: 'crond' with pid 92
+2022-08-21 10:51:45,923 INFO spawned: 'postfixd' with pid 99
+2022-08-21 10:51:45,932 INFO spawned: 'sshd' with pid 100
+2022-08-21 10:51:45,938 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-21 10:51:45,938 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-21 10:51:45,938 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-21 10:51:45,938 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-21 10:51:45,938 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-21 10:51:47,493 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-22 09:31:10,186 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-08-22 09:31:10,186 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2022-08-22 09:31:10,186 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2022-08-22 09:31:10,186 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-08-22 09:31:10,186 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-08-22 09:31:10,186 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-08-22 09:31:10,186 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-08-22 09:31:10,186 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-08-22 09:31:10,186 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-08-22 09:31:10,504 INFO RPC interface 'supervisor' initialized
+2022-08-22 09:31:10,505 INFO supervisord started with pid 80
+2022-08-22 09:31:11,508 INFO spawned: 'syslogd' with pid 83
+2022-08-22 09:31:11,513 INFO spawned: 'php-fpmd' with pid 84
+2022-08-22 09:31:11,518 INFO spawned: 'apached' with pid 85
+2022-08-22 09:31:11,523 INFO spawned: 'crond' with pid 87
+2022-08-22 09:31:11,529 INFO spawned: 'postfixd' with pid 93
+2022-08-22 09:31:11,533 INFO spawned: 'sshd' with pid 95
+2022-08-22 09:31:11,537 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-22 09:31:11,537 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-22 09:31:11,537 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-22 09:31:11,537 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-22 09:31:11,537 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-22 09:31:13,073 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-08-23 10:00:37,415 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-08-23 10:00:37,415 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2022-08-23 10:00:37,415 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2022-08-23 10:00:37,415 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-08-23 10:00:37,415 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-08-23 10:00:37,415 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-08-23 10:00:37,415 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-08-23 10:00:37,415 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-08-23 10:00:37,415 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-08-23 10:00:37,728 INFO RPC interface 'supervisor' initialized
+2022-08-23 10:00:37,729 INFO supervisord started with pid 82
+2022-08-23 10:00:38,734 INFO spawned: 'syslogd' with pid 85
+2022-08-23 10:00:38,739 INFO spawned: 'php-fpmd' with pid 86
+2022-08-23 10:00:38,745 INFO spawned: 'apached' with pid 88
+2022-08-23 10:00:38,752 INFO spawned: 'crond' with pid 92
+2022-08-23 10:00:38,757 INFO spawned: 'postfixd' with pid 96
+2022-08-23 10:00:38,761 INFO spawned: 'sshd' with pid 97
+2022-08-23 10:00:38,764 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-23 10:00:38,765 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-23 10:00:38,765 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-23 10:00:38,765 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-23 10:00:38,765 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-08-23 10:00:40,184 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
